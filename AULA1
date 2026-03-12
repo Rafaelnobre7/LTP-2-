@@ -1,1 +1,80 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 04</title>
+        <meta charset="UTF-8">
+    </head>
+<body>
+<table border="0" align="center">
+    <tr>
+       <td width="100">
+        <ul type="disc">
+            <li>linha 1</li>
+            <li>linha 1</li>
+            <li>linha 1</li>
+        </ul>
+       </td>
+       <td width="100">
+        <ul type="circle">
+            <li>linha 2</li>
+            <li>linha 2</li>
+            <li>linha 2</li>
+        </ul>
+       </td>
+       <td width="100">
+        <ul type="square">
+            <li>linha 3</li>
+            <li>linha 3</li>
+            <li>linha 3</li>
+        </ul>
+       </td>
+    </tr>
+     <tr>
+       <td width="100">
+        <ol type="I">
+            <li>linha 1</li>
+            <li>linha 1</li>
+            <li>linha 1</li>
+        </ol>
+       </td>
+       <td width="100">
+        <ol type="A">
+            <li>linha 2</li>
+            <li>linha 2</li>
+            <li>linha 2</li>
+        </ol>
+       </td>
+       <td width="100">
+        <ol type="a">
+            <li>linha 3</li>
+            <li>linha 3</li>
+            <li>linha 3</li>
+        </ol>
+       </td>
+    </tr>
+     <tr>
+       <td width="100">
+        <ol type="i">
+            <li>linha 1</li>
+            <li>linha 1</li>
+            <li>linha 1</li>
+        </ol>
+       </td>
+       <td width="100">
+        <ol type="1">
+            <li>linha 2</li>
+            <li>linha 2</li>
+            <li>linha 2</li>
+        </ol>
+       </td>
+       <td width="100">
+        <ol>
+            <li>linha 3</li>
+            <li>linha 3</li>
+            <li>linha 3</li>
+        </ol>
+       </td>
+    </tr>
+    </table>
+</body>
+</html>
