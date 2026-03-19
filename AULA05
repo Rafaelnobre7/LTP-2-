@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+<meta charset="UTF-8">
+<title>FORMULÁRIOS</title>
+</head>
+
+<body>
+<h2>ENVIAR DADOS</h2>
+<form action="receba.html" method="POST">
+    <label>Nome:</label>
+    <input type="text" name="Nome" required>
+    <br>
+
+    <label>Numero:</label>
+    <input type="number" name="numero" required>
+    <br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
