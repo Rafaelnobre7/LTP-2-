@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>FORMULÁRIOS</title>
+</head>
+
+<body>
+<h2>RECEBER DADOS</h2>
+
+<?php
+    $nome = $_POST["Nome"];
+    $numero = $_POST["Numero"];
+
+echo "nome:". $nome."<br>";
+echo "Número: " . $numero;
+
+?>
+<br>
+<a href="index.html">Voltar</a>
+
+</body>
+
+</html>
