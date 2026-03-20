@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
 <meta charset="UTF-8">
 <title>FORMULÁRIOS</title>
@@ -8,16 +7,42 @@
 
 <body>
 <h2>ENVIAR DADOS</h2>
-<form action="receba.html" method="POST">
-    <label>Nome:</label>
-    <input type="text" name="Nome" required>
-    <br>
 
-    <label>Numero:</label>
-    <input type="number" name="numero" required>
-    <br>
-
-    <input type="submit" value="Enviar">
+<form action="#" method="POST">
+    <label>Nome: (Imput do tipo texto)</label><br>
+    <input type="text" id="Nome" name="Nome:"/><br>
+    <input type="number" id="Numero" name="Numero" required><br>
+    <label>Número:</label><br>
+    <input type="number" id="numero" name="numero"/><br>
+    <label>Senha:</label><br>
+    <input type="password" id="senha" name="senha"/><br>
+    <label>Idade:</label><br>
+    <input type="number" id="idade" name="idade" min="0" max="120"/><br>
+    <label>Data:</label>
+    <input type="data" id="data" name="data"/><br>
+    <label>Telefone:</label><br>
+    <input type="tel" id="telefone" name="telefone" value="+55 061"/><br>
+    <label>Site:</label><br>
+    <input type="url" id="url" name="url" value="https://"/><br>
+    <label>Radio: (Sexo)</label>
+    <input type="radio" id="sexo" name="sexo" value="Masculino"/>Masculino<br>
+    <input type="radio" id="sexo" name="sexo" value="Feminino"/>Feminino<br><br>
+    <input type="radio" id="sexo" name="sexo" value="Outros"/>Outros<br>
+    <label>Checkbox: (Preferência)</label><br>
+    <input type="checkbox" id="pref" name="pref"/>Futebol<br>
+    <input type="checkbox" id="pref" name="pref"/>Novela<br>
+    <input type="checkbox" id="pref" name="pref"/>Cinema<br>
+    <label>Select: (Turno)</label>
+    <select>
+        <option value="Manhã">Manhã</option>
+        <option value="Tarde">Tarde</option>
+        <option value="Noite">Noite</option>
+        <option value="Madrugada">Madrugada</option>
+    </select><br>
+    <label>Área do texto: </label><br>
+    <textarea id="area" name="area" clos="90" rows="20" placeholder="Digite aqui..."></textarea>
+    <input type="" id="" required><br>
+    <input type="" id="" required><br>
 </form>
 
 </body>
