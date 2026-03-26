@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aula 03 - HTML</title>
+  </head>
+  <body>
+      <P align="center">TABELA</P>
+    <table border="1" align="center">
+        <tr>
+            <td bgcolor="#CBECDA">Linha 1; Coluna 1</td>
+            <td bgcolor="#A9E0C3">Linha 1; Coluna 2</td>
+            <td bgcolor="#8ED6AF">Linha 1; Coluna 3</td>
+          </tr
+        <tr>
+            <td bgcolor="#DACBEC">Linha 1; Coluna 1</td>
+            <td bgcolor="#C3A9E0">Linha 1; Coluna 2</td>
+            <td bgcolor="#B08ED6">Linha 1; Coluna 3</td>
+          </tr>
+          <tr>
+            <td bgcolor="#ECDACB">Linha 1; Coluna 1</td>
+            <td bgcolor="#E0C3A9">Linha 1; Coluna 2</td>
+            <td bgcolor="#D6B08E">Linha 1; Coluna 3</td>
+          </tr
+          
+    </table>
+  </body>
+</html>
 
+    
+        
+
+    
